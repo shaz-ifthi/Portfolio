@@ -264,7 +264,7 @@ button, .button {
   grid-area: header;
   height: 100vh;
   background-image: linear-gradient(to right bottom, #e9e9e9, #cbcbcb);
-  background-size: cover;
+  /* background-size: cover; */
   background-position: top;
 }
 
@@ -349,8 +349,9 @@ button, .button {
 }
 
 .main-image img {
-  max-width: 100%;
+  max-width: 75%;
   height: auto;
+  padding-bottom: 100px;
 }
 
 @keyframes moveInLeft {
@@ -844,14 +845,15 @@ button {
 }
 @media screen and (max-width: 1250px) {
   .text-box {
-    width: auto;
+    width: 750px;
     padding: 0 12.5%;
     left: 0;
+ 
   }
 
-  .main-image {
+  /* .main-image {
     display: none;
-  }
+  } */
 }
 @media screen and (max-width: 1000px) {
   .what {
