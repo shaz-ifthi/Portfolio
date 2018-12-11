@@ -845,7 +845,7 @@ button {
 }
 @media screen and (max-width: 1250px) {
   .text-box {
-    width: 750px;
+    width: 70%;
     padding: 0 12.5%;
     left: 0;
  
