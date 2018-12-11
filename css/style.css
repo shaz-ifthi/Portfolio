@@ -460,10 +460,10 @@ hr {
 }
 
 .project:hover .flip-container {
-  -webkit-transform: rotateY(-180deg);
-  -moz-transform: rotateY(-180deg);
-  -o-transform: rotateY(-180deg);
-  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-179.9deg);
+  -moz-transform: rotateY(-179.9deg);
+  -o-transform: rotateY(-179.9deg);
+  transform: rotateY(-179.9deg);
 }
 
 /* hide back of pane during swap */
