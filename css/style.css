@@ -453,17 +453,17 @@ hr {
 }
 
 .flip-container {
-  transition: 0.8s;
+  -webkit-transition: -webkit-transform 0.8s;
   transform-style: preserve-3d;
   height: 48rem;
   position: relative;
 }
 
 .project:hover .flip-container {
-  -ms-transform: translateY(-180%);
   -webkit-transform: rotateY(-180deg);
   -moz-transform: rotateY(-180deg);
   -o-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
 }
 
 /* hide back of pane during swap */
